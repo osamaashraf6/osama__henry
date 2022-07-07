@@ -69,10 +69,15 @@ a {
   height: 150vh;
   border-radius: 5px;
   padding: 15px;
+
+}
+.sectionone__wrapper__formcontrol{
+  margin-bottom: 15px;
 }
 .sectionone__wrapper__formcontrol__label {
   display: block;
   font-size: 20px !important;
+  color: #fff;
 }
 .sectionone__wrapper__formcontrol__inpt {
   border: 0;
