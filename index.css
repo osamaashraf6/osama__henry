@@ -66,20 +66,23 @@ a {
   transform: translate(-50%, -50%);
   background-color: rgb(27 27 50 / 80%);
   width: 43%;
-  height: 150vh;
+  height: 170vh;
   border-radius: 5px;
-  padding: 15px;
-
+  padding: 23px;
 }
-.sectionone__wrapper__formcontrol{
-  margin-bottom: 15px;
+.sectionone__wrapper__formcontrol {
+  margin-bottom: 20px;
 }
 .sectionone__wrapper__formcontrol__label {
   display: block;
   font-size: 20px !important;
   color: #fff;
 }
-.sectionone__wrapper__formcontrol__inpt {
+label {
+  color: #fff;
+}
+.sectionone__wrapper__formcontrol__inpt,
+.sectionone__wrapper__formcontrol__btn {
   border: 0;
   outline: 0;
   border-radius: 5px;
@@ -87,5 +90,18 @@ a {
   background-color: #fff;
   padding: 10px;
 }
-
+input[type="checkbox"],
+input[type="radio"] {
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  margin-right: 10px;
+}
+.sectionone__wrapper__formcontrol__btn {
+  background-color: #37af65;
+  cursor: pointer;
+  color: #fff;
+}
+textarea::placeholder {
+  font-size: 17px;
+}
 /* end content styles */
